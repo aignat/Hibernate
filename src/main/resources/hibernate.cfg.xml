@@ -16,6 +16,8 @@
         <property name="show_sql">true</property>
 
         <property name="format_sql">true</property>
+
+        <!-- This automatically generates the tables in DB -->
         <property name="hbm2ddl.auto">create</property>
 
         <!-- JDBC connection pool (use the built-in) -->
